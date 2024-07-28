@@ -12,7 +12,7 @@
 * 2.AŞAMA: Eğerki ip adresi ve port bilgisi eşleşiyorsa Sunucu istemciye SYN + ACK isteği atar
 * 3.AŞAMA: İstemci bu isteğe karşılık ACK Paketi atar
 # Aşağıdaki resimde daha açıklayıcı bir şekilde görebilirsiniz
-![Resim](https://github.com/dotPEEKs/TryHackMe/blob/main/Networking/TCP/threeway.png)
+![Resim](./threeway.png)
 
 
 # Evet Sıra geldi veri iletimine SEQ ACK numaralarının işleyişine 
@@ -21,7 +21,7 @@
 * diyelim ki sunucu istemciye bir veri attı SEQ Numarası 1: ACK Numarası 1'dir (fakat bu değişiklik gösterebilir)
 * İstemci bu veriyi aldığına dair bir ACK cevabı atıcaktır ve bu sefer SEQ = Bir önceki atılan paketin ACK sayısı ACK Sayısı ise bir önceki atılan paketin SEQ numarası + paketin uzunluğu şeklinde olucaktır
 #alttaki örnekte daha iyi bir şekilde inceleyebilirsiniz
-![Resim](https://github.com/dotPEEKs/TryHackMe/blob/main/Networking/TCP/term.png)
+![Resim](./term.png)
 * İsterseniz kendinizde bunu direkt olarak gözlemleyebilirsiniz
 # Ve bağlantı sonlanışına
 * Bunu şekilde ele alacağız çünkü 2 şekilde kapanma durumu var
@@ -34,6 +34,6 @@
 * Bu sonlandırmaya FOUR-WAY-HANDSHAKE denir
 * Aşağıdaki resme bakarak daha iyi gözlemleyebilirsiniz..
 * https://github.com/dotPEEKs/TryHackMe/blob/main/Networking/TCP/fin_ack.png
-* ![Resim](https://github.com/dotPEEKs/TryHackMe/blob/main/Networking/TCP/fin_ack.png)
+* ![Resim](./fin_ack.png)
 # 2.si Ise direkt kapatma ya da sonlandırma
 * Bu şekilde hiçbir istek atılmaz sadece RST atılır ve hiçbir cevap beklenmez
