@@ -26,7 +26,6 @@ def route():
 if __name__ == "__main__":
     talisman = Talisman(
       app = flask_app,
-      force_https = True, # HTTPS zorlamak için
       strict_transport_security = True, # Sunucu başlığına HSTS bilgisini eklemek için
       strict_transport_security_max_age = ONE_YEAR_IN_SECS, # HSTS başlığınının geçerlilik süresi tarayıcı bu süre zarfı içersinde bağlantılar https üzerinden yapacaktır olurda http olursa buna izin vermeyecektir
       strict_transport_security_include_subdomains = True, # İlgili sitenin bütün alt domainlerine HSTS özelliğini aktifleştirmek için
