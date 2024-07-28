@@ -15,4 +15,4 @@
 * Ne yazık ki SSL sertifikamız olmadığı için standart ```adhoc``` ssl sertifikasını kullanacağız
 * Sizde kendiniz gözlemlemek isterseniz ```curl -I -L --insecure http://192.168.1.96``` komutunu yazabilirsiniz
 * [Aşağıdaki](./hsts.png) fotoğraftada görüldüğüz üzere HSTS başlığı eklenmiş durumda :)
-* <a href="./hsts.png">
+* ![HSTS Basligi](./hsts.png)
