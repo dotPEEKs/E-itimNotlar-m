@@ -6,7 +6,9 @@
 ***
 ***
 > **SAME-ORIGIN**: Bu sadece aynı domainden gelen sayfaları kabul eder diğer domainden gelen sayfaları kabul etmez
+
 > **DENY**: Bu hiçbir şekilde iframe kabul etmez
+
 > **ALLOW-FROM URI**:Bu sadece belirtilen domainlerdeki iframe'leri kabul edicektir
 ***
 >***NOT***:Sadece sunucu cevap başlığına **DENY** eklemek yeterli olmayabilir bu yüzden CSP ayarlamalarıda gerekebilir  [Buraya](https://www.mshowto.org/content-security-policy-csp-nedir.html) bakabilirsiniz ayrıca bu sefer fotoğraf ile örneklendirmedim direkt kendiniz sunucuyu çalıştırıp bakabilirsiniz.
