@@ -10,3 +10,5 @@
 > **ALLOW-FROM URI**:Bu sadece belirtilen domainlerdeki iframe'leri kabul edicektir
 ***
 >***NOT***:Sadece sunucu cevap başlığına **DENY** eklemek yeterli olmayabilir bu yüzden CSP ayarlamalarıda gerekebilir  [Buraya](https://www.mshowto.org/content-security-policy-csp-nedir.html) bakabilirsiniz ayrıca bu sefer fotoğraf ile örneklendirmedim direkt kendiniz sunucuyu çalıştırıp bakabilirsiniz.
+# Peki bu açığın önlemi alınmazsa nelere sebebiyet verir
+> Clickjacking (Sitenizi başka bir siteye gömüp clickjacking yapabilirler)
