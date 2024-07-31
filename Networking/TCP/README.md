@@ -16,6 +16,7 @@
 
 
 # Evet Sıra geldi veri iletimine SEQ ACK numaralarının işleyişine 
+# Burası daha açıklayıcı olucak
 * Size bunu daha iyi anlaşılabilir olması için kendi yazdığım araç ve wireshark paket analizi sayesinde daha iyi inceleyebileceğiz.
 * İlk Başta SEQ Numarası da ACK numarasıda 1'dir
 * diyelim ki sunucu istemciye bir veri attı SEQ Numarası 1: ACK Numarası 1'dir (fakat bu değişiklik gösterebilir)
