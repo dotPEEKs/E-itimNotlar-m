@@ -1,7 +1,7 @@
 #/usr/bin/python3 
 
 # -*- encoding: utf-8 -*-
-import sys
+
 import urllib.request as urllib
 import threading
 from flask import Flask
@@ -31,7 +31,7 @@ if __name__ == "__main__":
       strict_transport_security_include_subdomains = True, # İlgili sitenin bütün alt domainlerine HSTS özelliğini aktifleştirmek için
       force_https_permanent = True # bu ise HTTP üzerinden gelen bağlantıları HTTPS'e yönlendirmek için
     )
-    https_thread = threading.Thread(target=flask_app.run,args=("192.168.1.96",443,),kwargs={"ssl_context":("cert.pem","key.pem")},)
+    https_thread = threading.Thread(target=flask_app.run,args=("192.168.1.96",443,),kwargs={"ssl_context":("cert.pem","key.pem")},) #Burada TLS protokolü 443 üzerinden çalıştığı için 443 üzerinden bir flask app'i daha açtık
     https_thread.daemon = True
     https_thread.start()
     flask_app.run("192.168.1.96",80)
